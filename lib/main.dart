@@ -1,13 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
-
-// class OutputRow{
-//   String row = '2^';
-//   int degree;
-//     OutputRow (this.row, this.degree);
-// }
-
 void main() {
   runApp(const MyApp());
 }
@@ -15,11 +8,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-void _degree () {
-
-}
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
 const String outRow = '2 ^';
@@ -52,9 +40,6 @@ const String outRow = '2 ^';
                       const Divider(thickness: 1.5,)
                     ],
                   ),
-
-
-
                 );
              },
            )
